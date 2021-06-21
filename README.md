@@ -1,7 +1,7 @@
 ## Portfolio-Analysis-HW
 
 #Overview:
-- Tools: Python, Pandas, Matplotlib, Numpy.
+- Tools: Python, Pandas, Matplotlib, Numpy, Google Sheets, Google Finance.
 - Conducted quantitative analysis of historical daily returns from several portfolios.
-- Determined which portfolio is performing the best across multiple areas: volatility, returns, risk, and Sharpe ratios.
-- Analyzed and visualized the major metrics of the portfolios and determine which portfolio outperformed the others. 
+- Determined which portfolio was performing the best across multiple areas: volatility, returns, risk, and Sharpe ratios.
+- Analyzed and visualized major metrics of the portfolios and determined which portfolio outperformed the others. 
