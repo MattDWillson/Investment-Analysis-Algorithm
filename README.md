@@ -1,12 +1,16 @@
-## Quantitative Analysis of Algorithmic Trading Strategies Versus Whale Investors, Hedge funds, Mutual Funds, and a Custom Portfolio Comprised of ESG Stocks
+## Quantitative Analysis of Algorithmic Trading Strategies VS. Competitors
 
 ## Overview
 
-    * Quantitative analysis algorithm that allows investment managers to analyze and visualize portfolio performance across multiple areas: volatility, returns,      risk, and Sharpe ratios 
+    * Quantitative analysis algorithm that allows investment managers to analyze and visualize
+    portfolio performance across multiple areas: volatility, returns, risk, and Sharpe ratios. 
 
-    * Transferred performance data from csv files into pandas data frames, concatenated data frames, and conducted quantitative analysis to visualize which portfolio performed best
+    * Transferred performance data from csv files into pandas data frames, concatenated data frames,
+    and conducted quantitative analysis to visualize which portfolio performed best.
 
-    * Determined that algorithmic trading strategies outperformed all other portfolios including whale investors, hedge funds, mutual funds, and a custom portfolio comprised of Apple, Costco, and Google
+    * Determined that algorithmic trading strategies outperformed all other portfolios including
+    whale investors, hedge funds, mutual funds, and a custom portfolio comprised of Apple, Costco,
+    and Google.
 
 
 ## Tools / Languages:
