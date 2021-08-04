@@ -13,7 +13,7 @@ Tools / Languages: JupyterLab, Python, Pandas, matplotlib
 ## Risk Analysis - Without Custom Portfolio
 <img width="1068" alt="Screen Shot 2021-08-04 at 1 16 40 PM" src="https://user-images.githubusercontent.com/83780964/128225443-e16e4950-3378-456f-99c1-9000ae39af9e.png">
 
-## Rolling Statistics - Without Custom Portfolio
+## 21 Day Rolling Standard Deviation - Without Custom Portfolio
 <img width="1072" alt="Screen Shot 2021-08-04 at 1 18 38 PM" src="https://user-images.githubusercontent.com/83780964/128225555-8b64d460-0dac-4b88-8287-58fe8ea821f1.png">
 
 ## Correlation Matrix - Without Custom Portfolio
