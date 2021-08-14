@@ -1,12 +1,17 @@
 # Investment Analysis Tool
 
 Tools / Languages: JupyterLab, Python, Pandas, matplotlib 
+The algorithm is meant to allow investment managers to analyze and compare portfolio performance across multiple metrics: volatility, returns, risk, and Sharpe ratios. The process involved fetching historical performance for multiple portfolios and a custom portfolio comprised of ESG stocks (Apple, Google, and Costco). The next step required converting csv files into pandas data frames whcih allows the user to conduct a perforrmance analysis using the built in time series features of pandas. Ultimatley the algorithm determined that algorithmic trading strategies outperformed all other portfolios including whale investors, hedge funds, mutual funds, and a custom portfolio comprised of Apple, Costco, and Google
 
-## Overview
-- Quantitative analysis algorithm that allows investment managers to analyze and visualize portfolio performance across multiple areas: volatility, returns, risk, and Sharpe ratios 
-- Transferred historical performance data from csv files into data frames, concatenated data frames, performed quantitative analysis to determine which portfolio performed best; then created visualizations for performance metrics
-- Determined that algorithmic trading strategies outperformed all other portfolios including whale investors, hedge funds, mutual funds, and a custom portfolio comprised of Apple, Costco, and Google
-
+## Process
+- Concatenate data frames to compare performance
+- Calculate daily returns using the pct_change function
+- Calculate cumulative returns using the cumprod fucntion
+- Calculate volatility using the std function 
+- Calculate volatility on a rolling basis per month (21 day period) 
+- Calculate correlation matrix
+- Calculate Sharpe ratios
+- 
 ## Cumulative Returns - Without Custom Portfolio
 <img width="1054" alt="Screen Shot 2021-08-04 at 1 15 26 PM" src="https://user-images.githubusercontent.com/83780964/128225175-4ba21ef7-b80f-4ecd-bf76-1981aba8e9a5.png">
 
