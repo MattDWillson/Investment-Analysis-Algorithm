@@ -1,6 +1,6 @@
 # Investment Analysis Tool
 
-This algorithm compares the performance of individual stocks and portfolios across the following areas: volatility, returns, risk, and Sharpe ratios. The first step of the process entails calculating the historical returns of the specified target portfolio. In this case, we have a the historial performance of two algorithmic trading portfolios, SOROS FUND MANAGEMENT LLC, PAULSON & CO.INC., TIGER GLOBAL MANAGEMENT LLC, and BERKSHIRE HATHAWAY INC. Additionally, we have Google, Costco and Apple returns, which will be weighted and combined to form a custom portfolio. Also, we have the S&P 500 index returns which will be used as a performance benchmark and the risk free rate for Sharpe ratio calculations.
+This algorithm compares the performance of individual stocks and portfolios across the following areas: volatility, returns, risk, and Sharpe ratios. In this case, we have a the historial performance of two algorithmic trading portfolios, as well as the returns of SOROS FUND MANAGEMENT LLC, PAULSON & CO.INC., TIGER GLOBAL MANAGEMENT LLC, and BERKSHIRE HATHAWAY INC. Additionally, we have Google, Costco and Apple returns, which will be weighted and combined to form a custom portfolio. Also, we have the S&P 500 index returns which will be used as a performance benchmark and the risk free rate for Sharpe ratio calculations.
 
 ## Process
 - Concatenate data frames to compare performance
