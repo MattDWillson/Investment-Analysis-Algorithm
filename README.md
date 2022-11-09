@@ -8,7 +8,6 @@ This algorithm compares the performance of individual stocks and portfolios acro
 - Calculate cumulative returns using the cumprod fucntion
 - Calculate volatility using the std function 
 - Calculate volatility on a rolling basis per month (21 day period) 
-- Calculate correlation matrix
 - Calculate Sharpe ratios
  
 ## Cumulative Returns - Without Custom Portfolio
@@ -19,9 +18,6 @@ This algorithm compares the performance of individual stocks and portfolios acro
 
 ## 21 Day Rolling Standard Deviation - Without Custom Portfolio
 <img width="1072" alt="Screen Shot 2021-08-04 at 1 18 38 PM" src="https://user-images.githubusercontent.com/83780964/128225555-8b64d460-0dac-4b88-8287-58fe8ea821f1.png">
-
-## Correlation Matrix - Without Custom Portfolio
-<img width="1076" alt="Screen Shot 2021-08-04 at 1 19 50 PM" src="https://user-images.githubusercontent.com/83780964/128225664-901a76f3-3b07-4682-9903-8257116dcc61.png">
 
 ## Sharpe Ratios - Without Custom Portfolio
 <img width="360" alt="Screen Shot 2021-08-04 at 1 21 06 PM" src="https://user-images.githubusercontent.com/83780964/128225805-9792ecf2-824d-403e-806c-20e76074db40.png">
