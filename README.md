@@ -1,14 +1,16 @@
 # Investment Analysis Tool
 
-This algorithm compares the performance of individual stocks and portfolios across the following areas: volatility, returns, risk, and Sharpe ratios. In this case, we have a the historial performance of two algorithmic trading portfolios, as well as the returns of SOROS FUND MANAGEMENT LLC, PAULSON & CO.INC., TIGER GLOBAL MANAGEMENT LLC, and BERKSHIRE HATHAWAY INC. Additionally, we have Google, Costco and Apple returns, which will be weighted and combined to form a custom portfolio. Also, we have the S&P 500 index returns which will be used as a performance benchmark and the risk free rate for Sharpe ratio calculations.
+This is an investment analysis tool that allows investors to compare the performance of individual stocks and portfolios across the following areas: volatility, returns, risk, and Sharpe ratios. 
 
 ## Process
+- Structure historical data
+- Read data sets into Python as CSV
 - Concatenate data frames to compare performance
 - Calculate daily returns using the pct_change function
 - Calculate cumulative returns using the cumprod fucntion
 - Calculate volatility using the std function 
 - Calculate volatility on a rolling basis per month (21 day period) 
-- Calculate Sharpe ratios
+- Calculate Sharpe ratios (asset return - risk free rate)/(standard dev asset)
  
 ## Cumulative Returns - Without Custom Portfolio
 <img width="1054" alt="Screen Shot 2021-08-04 at 1 15 26 PM" src="https://user-images.githubusercontent.com/83780964/128225175-4ba21ef7-b80f-4ecd-bf76-1981aba8e9a5.png">
